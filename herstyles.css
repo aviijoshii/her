@@ -1,0 +1,110 @@
+body {
+    background-color: rgba(183, 49, 49, 0.74);
+}
+
+.cards {
+    height: 45rem;
+    width: 34rem;
+    background-color: #eee;
+    box-shadow: 1rem 1rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin: 7rem auto;
+}
+
+.card-one,
+.card-three {
+    position: relative;
+    left: 30rem;
+}
+
+.card-two,
+.card-four {
+    position: relative;
+    right: 30rem;
+}
+
+.the-image {
+    box-shadow: 0.4rem 0.3rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    height: 37rem;
+    width: 34rem;
+}
+
+.image-one {
+    background: url(Images/pinkpriv.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.the-text {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    height: 8rem;
+    width: 34rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.you {
+    position: absolute;
+    font-size: 10rem;
+    font-weight: 800;
+    text-transform: lowercase;
+    top: 23rem;
+    left: 40rem;
+}
+
+.image-two {
+    background: url(Images/darkpriv.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.make{
+    position: absolute;
+    font-size: 10rem;
+    font-weight: 800;
+    text-transform: lowercase;
+    top: 74rem;
+    left: 88rem;
+    transform-origin: left;
+    color: #1f124fb8;
+}
+
+.image-three {
+    background: url(Images/priviii.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.me{
+    position: absolute;
+    font-size: 10rem;
+    font-weight: 800;
+    text-transform: lowercase;
+    top: 127rem;
+    left: 46rem;
+    transform-origin: right;
+    color: #797182;
+}
+
+.image-four {
+    background: url(Images/pricshadow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.happiest{
+    position: absolute;
+    font-size: 10rem;
+    font-weight: 800;
+    text-transform: lowercase;
+    top: 179rem;
+    left: 90rem;
+    color: #ae30ae;
+}
